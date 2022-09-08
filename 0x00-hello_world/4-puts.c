@@ -1,7 +1,9 @@
 # include <stdio.h>
 /**
- *This program will use the puts function to print output
- *Description: In the main function, I initialized my variable, Promul
+ *Promul - This program will use the puts function to print output
+ *@Promul: The variable
+ *
+ * Description: In the main function, I initialized my variable, Promul
  *puts function is then used to print
  *A 0 value is returned
  */
