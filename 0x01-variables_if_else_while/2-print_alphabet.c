@@ -9,7 +9,7 @@
 /* Description: main - This program prints English alphabets in lowercase*/
 
 /* Return: Returns a value of 0 after execution */
-char main(void)
+int main(void)
 {
 	char alpha = 'a';
 
