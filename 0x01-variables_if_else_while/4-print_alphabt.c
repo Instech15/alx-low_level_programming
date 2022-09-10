@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-/* main - Prints letters in lowercase except for and q
- *
- * Return: 0 Always
-*/
+/* Description - main - Prints letters in lowercase except for and q */
+
+/* Return: 0 Always */
 int main(void)
 {
 	char alpha = 'a';
