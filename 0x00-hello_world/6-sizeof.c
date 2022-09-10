@@ -1,19 +1,19 @@
-#include <stdio.h>                                                                                                        
+#include <stdio.h>
 
-/**                                                                                                                       
- * Description: main - List size of various datatypes
- * Return: Return 0 after successful execution
-*/
+/**
+ * main - Prints the size of variable types
+ *
+ * Return: Always 0.
+ */
 
-int main(void)                                                                                                            
+int main(void)
+{
+	printf("Size of a char: %zu bytes\n", sizeof(char));
+	printf("Size of an int: %zu bytes\n", sizeof(int));
+	printf("Size of a long int: %zu byte\n", sizeof(long int));
+	printf("Size of a long long int: %zu byte\n", sizeof(long long int));
+	printf("Size of a float: %zu byte\n", sizeof(float));
 
-{                                                                                                                         
-
-	printf("Size of Char: %ld byte(s)\n", sizeof(char));                                                              
-        printf("Size of int: %ld byte(s)\n", sizeof(int));                                                                
-        printf("Size of long int: %ld byte(s)\n", sizeof(long int));                                                      
-        printf("Size of long long int: %ld byte(s)\n", sizeof(long long int));                                            
-	printf("Size of float: %ld byte(s)\n", sizeof(float));                                                            
-	
 	return (0);
+
 }
