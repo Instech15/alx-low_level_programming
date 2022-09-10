@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-/** main - Prints alphabets without q and e
- *
+/* main - Prints letters in lowercase except for and q
  *
  * Return: 0 Always
 */
-
-/* Description: main - prints letters minus e and q*/
-/* Return: return 0 after execution */
 int main(void)
 {
 	char alpha = 'a';
