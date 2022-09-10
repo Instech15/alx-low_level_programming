@@ -1,3 +1,8 @@
+/**
+ * Description: main - Prints letter except for q and e
+ *
+ * Return: 0 Always
+ */
 #include <stdio.h>
 
 /* Description - main - Prints letters in lowercase except for and q */
