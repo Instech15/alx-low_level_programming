@@ -9,12 +9,11 @@ int main(void)
 {
 	char wale_alpha = 'a';
 
-	while (wale_alpha <= 'z')
+	for (wale_alpha = 'a'; wale_alpha <= 'z'; wale_alpha++)
 	{
 		_putchar(wale_alpha);
-		wale_alpha++;
 		_putchar('\n');
-
-		return (0);
 	}
+
+	return (0);
 }
