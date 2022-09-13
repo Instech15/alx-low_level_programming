@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 - prints alphabets times ten
  *
- * Return: Always 0.
+ * Return: alphabets a-z
  */
 void print_alphabet_x10(void)
 {
