@@ -12,6 +12,7 @@ int main(void)
 	while (wale_alpha <= 'z')
 	{
 		_putchar(wale_alpha);
+		wale_alpha++;
 		_putchar('\n');
 
 		return (0);
