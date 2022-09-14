@@ -6,9 +6,10 @@
  */
 void times_table(void)
 {
-	int i = 0, j;
+	int i = 3, j;
+	int arr[k][0];
 
-	for (i = 0; i <= 9; i++)
+	for (int k = 0; k < i; k++)
 	{
 		j = 0;
 		while (j <= 9)
