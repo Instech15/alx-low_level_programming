@@ -19,14 +19,11 @@ void times_table(void)
 			anotherNumber = number * times;
 
 			if (anotherNumber <= 9)
-			{
 				_putchar(' ');
-			}
 			else
-			{
-				_putchar((times / 10) + '0');			}
+				_putchar((times / 10) + '0');
 				_putchar ((times % 10) + '0');
 		}
-		_putchar('\n');
+				_putchar('\n');
 	}
 }
