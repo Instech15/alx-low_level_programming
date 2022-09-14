@@ -6,19 +6,31 @@
  */
 void times_table(void)
 {
-	int i = 3, j;
-	int arr[k][0];
+	int f, s, t;
 
-	for (int k = 0; k < i; k++)
+	for (int f = 0; f <= 9; f++)
 	{
-		j = 0;
-		while (j <= 9)
-		{
 		_putchar('0');
-		j++;
+		_putchar(',');
+		_putchar(' ');
+		for (s = 0; s <= 9; s++)
+		{
+			t = (f * s);
+			if ((t / 10) > 0)
+			{
+				_putchar((t / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
+			_putchar ((t % 10) + '0');
+			if (f < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
-
 	_putchar('\n');
-
 	}
 }
