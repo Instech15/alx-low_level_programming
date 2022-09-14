@@ -6,31 +6,26 @@
  */
 void times_table(void)
 {
-	int f, s, t;
+	int number, times, anotherNumber;
 
-	for (f = 0; f <= 9; f++)
+	for (number = 0; number <= 9; number++)
 	{
 		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		for (s = 1; s <= 9; s++)
+		for (times = 1; times <= 9; times++)
 		{
-			t = (f * s);
-			if ((t / 10) > 0)
+			_putchar(',');
+			_putchar(' ');
+
+			anotherNumber = number * times;
+
+			if (anotherNumber <= 9)
 			{
-				_putchar((t / 10) + '0');
+				_putchar(' ');
 			}
 			else
 			{
-				_putchar(' ');
-			}
-			_putchar ((t % 10) + '0');
-			if (f < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-			}
+				_putchar((times / 10) + '0');			}
+				_putchar ((times % 10) + '0');
 		}
 		_putchar('\n');
 	}
