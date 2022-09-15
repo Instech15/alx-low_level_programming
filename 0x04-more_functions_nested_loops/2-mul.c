@@ -5,11 +5,9 @@
  * @a: first digit
  * @b: second digit
  * 
- * Return: c
+ * Return: result
  */
 int mul(int a, int b)
 {
-	int a, b, c;
-
 	return (a * b);
 }
