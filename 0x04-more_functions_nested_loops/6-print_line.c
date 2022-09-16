@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * print_line - print straight line
- *
+ * 
+ * Description
  * @n: number to be used
+ * @i: the loop character
  * Return: Nothing to be returned
  */
 void print_line(int n)
