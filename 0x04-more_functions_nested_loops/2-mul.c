@@ -3,7 +3,7 @@
  *mul - multiplies two digits
  *
  *@a: first digit
- *@b: second digit 
+ *@b: second digit
  *Return: returns result
  */
 int mul(int a, int b)
