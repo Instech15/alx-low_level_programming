@@ -1,6 +1,7 @@
 #ifndef WALE_MAIN_TWO
 #define WALE_MAIN_TWO
 
+#include <stdio.h>
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
