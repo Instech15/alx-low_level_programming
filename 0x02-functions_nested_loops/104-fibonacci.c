@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	unsigned long int t0 = 0, t1 = 1, s;
+	unsigned long int t0 = 1, t1 = 2, s;
 
 	int i;
 
-		for (i = 1; i <= 100; i++)
+		for (i = 1; i <= 98; i++)
 			{
 			s = t0 + t1;
-			if (i != 100)
+			if (i != 98)
 			{
 				printf("%lu, ", s);
 			}
