@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-/* main - Prints single numbers */
-
+/* main - entry point */
+/* @numbers: digit numbers base 10 */
 /* Return: Return 0 value after execution */
 
 int main(void)
