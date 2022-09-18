@@ -1,11 +1,11 @@
-/* Description: main - Prints single numbers */
+/* main - Prints single numbers */
 
 /*Return: 0 Always */
 
 #include <stdio.h>
-/* Description: main - Prints single numbers */
-
-/* Return: Return 0 value after execution */
+/* Description: main - Prints single numbers
+ * Return: Return 0 value after execution
+*/
 int main(void)
 {
 	int numbers;
