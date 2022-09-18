@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* Description: main - Prints single numbers */
+/* main - Prints single numbers */
+
 /* Return: Return 0 value after execution */
 
 int main(void)
