@@ -9,7 +9,7 @@ int _atoi(char *s)
 {
 	int n;
 
-	n = _atoi("4");
+	n = _atoi("s");
 	printf("%d\n", n);
 
 	return (0);
