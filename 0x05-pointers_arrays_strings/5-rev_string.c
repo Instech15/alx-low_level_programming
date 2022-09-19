@@ -9,12 +9,17 @@
 */
 void rev_string(char *s)
 {
-	int step1, step2;
+	char reverse = s[0];
+	int count = 0;
+	int i;
 
-	for (step1 = 0; s[step1] != '\0'; step1++)
+	while (s[count] != '\0')
+		count++;
+	for (i = 0; i < count; i++)
 	{
-		for (step2 = step1 - 1; step2 >= 0; step2--)
-			_putchar(s[step2]);
+		count--;
+		reverse = s[i];
+		s[i] = s[count];
+		s[count] = reverse;
 	}
-	_putchar('\n');
 }
