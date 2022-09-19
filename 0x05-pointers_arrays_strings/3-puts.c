@@ -10,7 +10,11 @@
  */
 void _puts(char *str)
 {
-	char wale[16] = "I love computers";
-
-	puts(wale);
+	int wale;
+	
+        for (wale = 0; str[wale] != '\0'; wale++)
+	{
+		_putchar(str[wale]);
+	}
+	_putchar('\n');
 }
