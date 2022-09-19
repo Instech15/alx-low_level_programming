@@ -3,7 +3,7 @@
 int _atoi(char *);
 
 /**
- * main - check the code for Holberton School students.
+ * main - Converts strings to int
  *
  * Return: Always 0.
  */
