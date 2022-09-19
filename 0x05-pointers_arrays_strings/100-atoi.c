@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "main.h"
+
+int _atoi(char *);
 
 /**
- *_atoi - Converts string to integer
- *@s: input string
- *Return: Always 0 (Success)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int _atoi(char *s)
+int main(void)
 {
+	int n;
 
-	 atoi(s);
-
-		return (0);
+	n = _atoi("4");
+	printf("%d\n", n);
+	return (0);
 }
