@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int _atoi(char *)
+int _atoi(char *s)
 {
 	int n;
 
