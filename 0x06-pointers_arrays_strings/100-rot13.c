@@ -5,7 +5,7 @@
  * Return: decrypted string
  */
 
-char *rot13(char *)
+char *rot13(char *n)
 {
 	int x, rot_c = 13, i = 0;
 	char toswap[] = {'A', 'N', 'a', 'n', 'B', 'O', 'b', 'o', 'C', 'P', 'c',
