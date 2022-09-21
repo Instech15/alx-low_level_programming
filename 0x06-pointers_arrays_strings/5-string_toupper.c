@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * Author: Adewale Adeniyi
  * *_string_toupper - changes lowercase of a string to upper
  * @n: the input string
  *
