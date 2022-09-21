@@ -12,18 +12,11 @@
 int _strcmp(char *s1, char *s2)
 {
 	int value;
-	char note1[4] = "Same";
-	char note2[8] = "Not Same";
 
-	for (value = 0; s1[value] != '\0'; value++)
+	for (value = 0; s1[value] != '\0' && s2[value] != '\0'; value++)
 	{
-	}
-	for (value = 0; s2[value] != '\0'; value++)
-	{
-	}
 		if (s1[value] != s2[value])
 			return (s1[value] - s2[value]);
-
+	}
 	return (0);
-
 }
