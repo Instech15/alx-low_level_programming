@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn - Find length of string that consists only of chosen bytes
+ * _strspn - gets the length of a prefix substring
  * @s: String to search
  * @accept: The acceptable bytes string can contain
  *
