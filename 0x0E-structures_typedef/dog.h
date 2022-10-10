@@ -4,7 +4,7 @@
  * @age: member2
  * @owner: member3
  *
- * Return: nothing.
+ * Description: structure definition in C language
  */
 struct dog
 {
@@ -12,10 +12,3 @@ struct dog
 	float age;
 	char *owner;
 };
-
-int main(void)
-{
-	struct dog *dog;
-
-	return (0);
-}
