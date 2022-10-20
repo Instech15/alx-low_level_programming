@@ -10,10 +10,10 @@ size_t print_list(const list_t *h)
 {
 	size_t i;
 
-	while (i != NULL)
+	for (i = 0; h; i++)
 	{
-		printf(" %d ", h->data);
+		printf(" %d ", h->len);
 		h = h->next;
 	}
-	return (0);
+	return (i);
 }
