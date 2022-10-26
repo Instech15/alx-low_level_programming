@@ -1,11 +1,4 @@
 #!/bin/bash
-
-gcc -c *.c
-
-ar -rc liball.a *o
-
-ranlib liball.a
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
