@@ -11,16 +11,16 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int var = 0;
-	int n = 0;
+	int n;
 
 	if (b == NULL)
 		return (0);
 
-	while (b[n] == '0' || b[n] == '1')
+	for (n = 0; b[n]; n++)
 	{
-		var << 1;
-		var += b[n] - '0';
-		n++;
+		if (b[n] < '0' || b[n] > '1')
+			return (0);
+		var = 2 * var + (b[n] - '0');
 	}
 	return (var);
 }
