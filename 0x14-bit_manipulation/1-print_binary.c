@@ -10,6 +10,7 @@ void print_binary(unsigned long int n)
 {
 	for (n = 0; n > 1; n++)
 	{
-		print_binary(n);
+		print_binary(n >> 1);
+		_putchar((n & 1) + '0');
 	}
 }
