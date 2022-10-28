@@ -2,6 +2,9 @@
 /**
  * get_endianness - checks the endianness.
  *
+ * @num: bit
+ * @endian: pointer
+ *
  *Return: nothing
  */
 int get_endianness(void)
