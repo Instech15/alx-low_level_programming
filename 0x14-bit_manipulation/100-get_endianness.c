@@ -2,15 +2,13 @@
 /**
  * get_endianness - checks the endianness.
  *
- * @num: bit
- * @endian: pointer
- *
- *Return: nothing
+ * Return: nothing
+ * Description - a function that checks the endianness.
  */
 int get_endianness(void)
 {
 	int num = 1;
-	char *endian = (char *) &num;
+	char *endian = (char *)&num;
 
 	if (*endian == 1)
 		return (1);
