@@ -11,32 +11,26 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t fd;
-	char buf[14];
+	ssize_t open, read, write;
+	char *buf;
 
-	fd = open("myfile.txt", O_CREAT | O_WRONLY, 0600);
-	if (fd == -1)
-	{
+	if (filename == NULL)
 		return (0);
-		exit(1);
-	}
-	write(fd, "Hello World\n", 13);
-	close(fd);
-	if (fd == -1)
-	{
+	buf = malloc(sizeof(char) * letters);
+	if (buf == NULL)
 		return (0);
-		exit(1);
-	}
-	fd = open("myfile.txt", O_RDONLY);
-	if (fd == -1)
-	{
-		return (0);
-		exit(1);
-	}
-	read(fd, buf, 13);
-	buf[13] = '\0';
-	close(fd);
-	printf("buf is: %s\n", buf);
 
-	return (fu);
+	open = open(filename, O_RDONLY);
+	read = read(open, buf, letters);
+	write = write(STDOUT_FILENO, buf, read);
+
+	if (open == -1 || read == -1 || write != read)
+	{
+		free(buf);
+		return (0);
+	}
+	free(buf);
+	close(open);
+
+	return (write);
 }
