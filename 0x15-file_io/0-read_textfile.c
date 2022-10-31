@@ -3,9 +3,10 @@
  * read_textfile - reads a text file and prints it to
  * the POSIX standard output.
  *
- * @letters: letters to be read and printed
+ * @letters: the number of letters to be read and printed
+
  * @filename: filename
- * Return: 0 always
+ * Return: returns the actual number of letters it could read and print or 0 otherwise
  *
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -37,5 +38,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 	printf("buf is: %s\n", buf);
 
-	return (fd);
+	return (fu);
 }
